@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="35dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/wtImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/xl3"
+            tools:src="@drawable/il_activity_friend" />
+
+        <TextView
+            android:id="@+id/wtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/sm"
+            style="@style/Theme.Kuring.Title"
+            android:lineSpacingMultiplier="0"
+            android:lineSpacingExtra="36sp"
+            tools:text="Aktifitas dan Teman" />
+
+        <TextView
+            android:id="@+id/wtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Theme.Kuring.TextGeneral"
+            android:gravity="center"
+            tools:text="kelola aktifitas harian serta daftar teman jadi lebih mudah sehingga setiap halnya tertata dengan rapi."/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

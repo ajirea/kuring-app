@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Kuring.Title">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/gray2</item>
+    </style>
+
+    <style name="Theme.Kuring.TitleSm">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">@dimen/title_sm_size</item>
+        <item name="android:textColor">@color/gray2</item>
+    </style>
+
+    <style name="Theme.Kuring.TextGeneral">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/gray3</item>
+        <item name="android:textSize">@dimen/general_size</item>
+    </style>
+
+    <style name="Theme.Kuring.TextCardTitle">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/gray2</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Theme.Kuring.TextCardDesc">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/gray2</item>
+        <item name="android:textSize">@dimen/sm_size</item>
+    </style>
+
+    <style name="Theme.Kuring.Avatar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.Kuring.Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="">
+        <item name="colorSecondary">@color/purple</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>

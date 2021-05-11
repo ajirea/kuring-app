@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kuring</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="skip">Lewati</string>
+
+    <string name="about_me">Tentang Saya</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_daily_activities">Aktifitas</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_music_video">Music &amp; Video</string>
+    <string name="menu_profile">Profil</string>
+
+
+    <string name="test_long">
+    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse risus est, elementum vel feugiat semper, molestie ac enim. Proin dui ex, ultricies nec lectus sit amet, mattis faucibus lectus. Nulla turpis diam, scelerisque a sodales in, tincidunt id tellus. Praesent ut convallis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis erat sed metus mollis interdum. Phasellus eget dui aliquet, eleifend ex sit amet, vehicula justo. Donec viverra in dolor pharetra fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        \nAenean porttitor accumsan velit, a scelerisque libero. Donec gravida lectus lectus, aliquam fringilla risus tempus nec. Aenean a luctus risus. Praesent faucibus velit a sem commodo laoreet. Vivamus id lectus ac dolor commodo feugiat eu ac massa. Suspendisse sed tempus libero. Sed id nisl nunc. Cras porttitor faucibus nibh ut lacinia.
+        \nAenean porttitor accumsan velit, a scelerisque libero. Donec gravida lectus lectus, aliquam fringilla risus tempus nec. Aenean a luctus risus. Praesent faucibus velit a sem commodo laoreet. Vivamus id lectus ac dolor commodo feugiat eu ac massa. Suspendisse sed tempus libero. Sed id nisl nunc. Cras porttitor faucibus nibh ut lacinia.
+    </string>
+</resources>

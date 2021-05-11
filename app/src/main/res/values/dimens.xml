@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sm_size">12sp</dimen>
+    <dimen name="general_size">14sp</dimen>
+    <dimen name="title_sm_size">18sp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="xs">12dp</dimen>
+    <dimen name="sm">14dp</dimen>
+    <dimen name="base">16dp</dimen>
+    <dimen name="lg">18dp</dimen>
+    <dimen name="xl3">24dp</dimen>
+    <dimen name="xl5">35dp</dimen>
+    <dimen name="wt_padding_bottom">56dp</dimen>
+</resources>
