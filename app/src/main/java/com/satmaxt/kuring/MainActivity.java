@@ -55,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
             case  R.id.menuMusicVideo:
                 selectedFragment = new MusicVideoFragment();
                 break;
+            case  R.id.menuProfile:
+                selectedFragment = new ProfileFragment();
+                break;
         }
 
         if(selectedFragment != null) {
