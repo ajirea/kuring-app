@@ -200,7 +200,7 @@ public class MusicFragment extends Fragment implements MusicView {
 
     @Override
     public void onSave() {
-//        Toast.makeText(getContext(), "Musik telah ditambahkan", Toast.LENGTH_SHORT).show();
         presenter.load();
+        Toast.makeText(getContext(), "Berhasil menambahkan musik", Toast.LENGTH_LONG).show();
     }
 }

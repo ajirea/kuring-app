@@ -135,6 +135,8 @@ public class MusicVideoFragment extends Fragment {
                     music.setTitle(fTitle.getText().toString());
                     music.setArtist(fArtist.getText().toString());
                     fragment.presenter.store(music);
+                    fTitle.setText("");
+                    fArtist.setText("");
                     dialog.dismiss();
                 }
             }

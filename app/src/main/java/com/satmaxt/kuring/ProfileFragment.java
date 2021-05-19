@@ -74,7 +74,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
         btnClose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dialog.hide();
+                dialog.dismiss();
             }
         });
     }
