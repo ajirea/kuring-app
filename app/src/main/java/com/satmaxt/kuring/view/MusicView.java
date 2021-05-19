@@ -12,4 +12,7 @@ import java.util.List;
  */
 public interface MusicView {
     void onLoad(List<MusicModel> musics);
+    void onUpdate();
+    void onDelete();
+    void onSave();
 }

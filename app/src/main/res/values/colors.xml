@@ -11,7 +11,9 @@
     <color name="dark">#1F1D2B</color>
     <color name="extra_dark">#1A1823</color>
     <color name="dark_transparent">#E61F1D2B</color>
+    <color name="red">#CB3B3B</color>
     <color name="yellow">#FFC14D</color>
+    <color name="yellow_dark">#D29A2F</color>
     <color name="gray1">#5E4E5066</color>
     <color name="gray2">#E4E4E6</color>
     <color name="gray3">#A6A6BB</color>

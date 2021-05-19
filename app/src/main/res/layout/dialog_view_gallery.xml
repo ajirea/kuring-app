@@ -62,10 +62,7 @@
                     android:layout_gravity="center_horizontal"
                     android:minWidth="150dp"
                     android:text="Tutup"
-                    android:elevation="0dp"
-                    android:textAllCaps="false"
-                    android:textColor="@color/gray2"
-                    android:background="@drawable/btn_primary"/>
+                    style="@style/Theme.Kuring.Button"/>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

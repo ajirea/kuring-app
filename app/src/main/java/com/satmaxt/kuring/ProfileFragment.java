@@ -108,9 +108,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener {
     }
 
     private void openDialog() {
-        if(!dialog.isShowing()) {
-            dialog.show();
-        }
+        dialog.show();
     }
 
     private void openMap() {

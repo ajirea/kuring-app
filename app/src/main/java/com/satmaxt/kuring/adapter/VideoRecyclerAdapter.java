@@ -33,7 +33,7 @@ public class VideoRecyclerAdapter extends RecyclerView.Adapter<VideoRecyclerAdap
         return new VideoViewHolder(
                 LayoutInflater.from(parent.getContext())
                         .inflate(
-                                R.layout.item_music,
+                                R.layout.item_video,
                                 parent,
                                 false
                         )
@@ -52,19 +52,16 @@ public class VideoRecyclerAdapter extends RecyclerView.Adapter<VideoRecyclerAdap
 
     static class VideoViewHolder extends RecyclerView.ViewHolder {
         private final TextView title, creator;
-        private final View thumbnail;
 
         public VideoViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.itemTitle);
-            creator = itemView.findViewById(R.id.itemArtist);
-            thumbnail = itemView.findViewById(R.id.itemThumbnail);
+            creator = itemView.findViewById(R.id.itemCreator);
         }
 
         public void setVideoData(VideoModel video) {
             title.setText(video.getTitle());
             creator.setText(video.getCreator());
-            thumbnail.setBackgroundResource(R.drawable.ic_video);
         }
     }
 }

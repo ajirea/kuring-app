@@ -147,12 +147,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="@dimen/lg"
-                        android:background="@drawable/btn_primary"
-                        android:elevation="0dp"
+                        style="@style/Theme.Kuring.Button"
                         android:minWidth="150dp"
                         android:text="Find Me"
-                        android:textAllCaps="false"
-                        android:textColor="@color/gray2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/btnSocials" />

@@ -3,6 +3,7 @@ package com.satmaxt.kuring;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.satmaxt.kuring.BuildConfig;
+import com.satmaxt.kuring.database.Preferences;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,11 +28,14 @@ public class SplashActivity extends AppCompatActivity {
         TextView textAppVersion = (TextView) findViewById(R.id.textAppVersion);
         textAppVersion.setText(String.format("Version %s", versionName));
 
+        Preferences preferences = new Preferences(getBaseContext());
+        boolean walkedStatus = preferences.getWalkedStatus();
+
         Handler handler = new Handler(Looper.getMainLooper());
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, WalkthroughActivity.class));
+                startActivity(new Intent(SplashActivity.this, !walkedStatus ? WalkthroughActivity.class : MainActivity.class));
                 finish();
             }
         }, 3000);

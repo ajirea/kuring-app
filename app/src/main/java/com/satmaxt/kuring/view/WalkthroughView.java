@@ -11,5 +11,6 @@ import java.util.List;
  * Kelas: IF-2 / AKB-2
  */
 public interface WalkthroughView {
+    void finishWalk();
     void onLoad(List<WalkthroughModel> walkthroughs);
 }

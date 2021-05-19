@@ -40,4 +40,8 @@ public class MusicVideoViewPagerAdapter extends FragmentStateAdapter {
     public int getItemCount() {
         return pages.size();
     }
+
+    public List<Fragment> getPages() {
+        return pages;
+    }
 }

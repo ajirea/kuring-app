@@ -31,7 +31,8 @@
             app:tabSelectedTextColor="@color/yellow"
             app:tabIndicatorColor="@color/yellow"
             app:tabIndicatorFullWidth="false"
-            app:tabTextAppearance="@style/TextAppearance.App.Button"/>
+            android:background="@android:color/transparent"
+            app:tabTextAppearance="@style/Theme.Kuring.Button"/>
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/musicVideoViewPager"

@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 import com.satmaxt.kuring.adapter.WalkthroughViewPagerAdapter;
+import com.satmaxt.kuring.database.Preferences;
 import com.satmaxt.kuring.model.WalkthroughModel;
 import com.satmaxt.kuring.presenter.WalkthroughPresenter;
 import com.satmaxt.kuring.presenter.WalkthroughPresenterImpl;
@@ -34,12 +36,14 @@ public class WalkthroughActivity extends AppCompatActivity implements Walkthroug
     private List<WalkthroughModel> walkthroughs = new ArrayList<>();
     private WalkthroughPresenter presenter;
     private TabLayoutMediator tabMediator;
+    private Preferences preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_walkthrough);
 
+        preferences = new Preferences(getBaseContext());
         presenter = new WalkthroughPresenterImpl(this);
 
         ViewPager2 walkthroughViewPager = (ViewPager2) findViewById(R.id.wtViewPager);
@@ -54,6 +58,13 @@ public class WalkthroughActivity extends AppCompatActivity implements Walkthroug
         ImageButton btnPrev = (ImageButton) findViewById(R.id.wtBtnPrev);
         TextView btnSkip = (TextView) findViewById(R.id.wtBtnSkip);
 
+        btnSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finishWalk();
+            }
+        });
+
         walkthroughViewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageSelected(int position) {
@@ -65,6 +76,8 @@ public class WalkthroughActivity extends AppCompatActivity implements Walkthroug
         btnNext.setOnClickListener(v -> {
             if(walkthroughViewPager.getCurrentItem()+1 < walkthroughs.size()) {
                 walkthroughViewPager.setCurrentItem(walkthroughViewPager.getCurrentItem() + 1);
+            } else {
+                finishWalk();
             }
         });
 
@@ -75,6 +88,13 @@ public class WalkthroughActivity extends AppCompatActivity implements Walkthroug
         });
 
         presenter.load();
+    }
+
+    @Override
+    public void finishWalk() {
+        preferences.setWalkedStatus(true);
+        startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 
     @Override

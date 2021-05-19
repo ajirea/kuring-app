@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@android:color/transparent"
             app:tabBackground="@drawable/walkthrough_indicator"
             app:tabGravity="center"
             app:tabIndicatorHeight="0dp"

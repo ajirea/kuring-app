@@ -1,5 +1,6 @@
 package com.satmaxt.kuring.presenter;
 
+import com.satmaxt.kuring.dao.MusicDao;
 import com.satmaxt.kuring.model.MusicModel;
 import com.satmaxt.kuring.view.MusicView;
 
@@ -15,10 +16,11 @@ import java.util.List;
 public class MusicPresenterImpl implements MusicPresenter {
     private List<MusicModel> musics = new ArrayList<>();
     private MusicView view;
+    private MusicDao dao;
 
-    public MusicPresenterImpl(MusicView view) {
+    public MusicPresenterImpl(MusicView view, MusicDao dao) {
         this.view = view;
-        setData();
+        this.dao = dao;
     }
 
     private void setData() {
@@ -66,7 +68,27 @@ public class MusicPresenterImpl implements MusicPresenter {
     }
 
     @Override
+    public void store(MusicModel music) {
+        long created = dao.storeMusic(music);
+        view.onSave();
+    }
+
+    @Override
+    public void update(MusicModel music) {
+        dao.updateMusic(music);
+        view.onUpdate();
+    }
+
+    @Override
+    public void delete(MusicModel music) {
+        dao.deleteMusic(music);
+        view.onDelete();
+    }
+
+    @Override
     public void load() {
+        musics.clear();
+        musics.addAll(dao.getAll());
         view.onLoad(musics);
     }
 }
