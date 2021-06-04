@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/xl3"
             style="@style/Theme.Kuring.TextGeneral"
-            android:text="Judul Musik"
+            android:text="@string/field_title_music"
             app:layout_constraintTop_toBottomOf="@id/dialogTitle"/>
 
         <EditText
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/base"
             style="@style/Theme.Kuring.TextGeneral"
-            android:text="Penyanyi/Artis"
+            android:text="@string/field_artist"
             app:layout_constraintTop_toBottomOf="@id/formTitle"/>
 
         <EditText
@@ -87,7 +87,7 @@
                 android:textAllCaps="false"
                 style="@style/Theme.Kuring.ButtonOutlined"
                 android:textColor="@color/white"
-                android:text="Batal"
+                android:text="@string/cancel"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/btnSubmit"
@@ -97,7 +97,7 @@
                 android:textAllCaps="false"
                 style="@style/Theme.Kuring.Button"
                 android:textColor="@color/white"
-                android:text="Tambahkan"
+                android:text="@string/add"
                 android:layout_weight="1" />
         </LinearLayout>
 

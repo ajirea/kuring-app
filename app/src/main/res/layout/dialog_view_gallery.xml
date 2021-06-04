@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             style="@style/Theme.Kuring.TitleSm"
             android:layout_marginBottom="@dimen/base"
-            android:text="Lihat Galeri"/>
+            android:text="@string/view_gallery"/>
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
                     android:id="@+id/galleryAuthor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Photo by Satia Aji Putra on Unsplash"
+                    android:text="@string/dialog_gallery_example_author"
                     style="@style/Theme.Kuring.TextGeneral"
                     android:layout_marginBottom="@dimen/xl3"/>
                 <Button
@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:minWidth="150dp"
-                    android:text="Tutup"
+                    android:text="@string/close"
                     style="@style/Theme.Kuring.Button"/>
             </LinearLayout>
         </ScrollView>

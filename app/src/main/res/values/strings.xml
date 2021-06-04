@@ -14,10 +14,36 @@
     <string name="menu_music_video">Music &amp; Video</string>
     <string name="menu_profile">Profil</string>
 
-
-    <string name="test_long">
-    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse risus est, elementum vel feugiat semper, molestie ac enim. Proin dui ex, ultricies nec lectus sit amet, mattis faucibus lectus. Nulla turpis diam, scelerisque a sodales in, tincidunt id tellus. Praesent ut convallis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis erat sed metus mollis interdum. Phasellus eget dui aliquet, eleifend ex sit amet, vehicula justo. Donec viverra in dolor pharetra fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        \nAenean porttitor accumsan velit, a scelerisque libero. Donec gravida lectus lectus, aliquam fringilla risus tempus nec. Aenean a luctus risus. Praesent faucibus velit a sem commodo laoreet. Vivamus id lectus ac dolor commodo feugiat eu ac massa. Suspendisse sed tempus libero. Sed id nisl nunc. Cras porttitor faucibus nibh ut lacinia.
-        \nAenean porttitor accumsan velit, a scelerisque libero. Donec gravida lectus lectus, aliquam fringilla risus tempus nec. Aenean a luctus risus. Praesent faucibus velit a sem commodo laoreet. Vivamus id lectus ac dolor commodo feugiat eu ac massa. Suspendisse sed tempus libero. Sed id nisl nunc. Cras porttitor faucibus nibh ut lacinia.
+    <string name="about_me_desc">Halo, saya Satria. Lahir di Tanah Sunda pada 22 Juli 1999. Sejak kecil suka bongkar pasang mainan, hingga sekarang jadi suka ngoprek barang-barang elektronik serta kode program. Sekolah wajib saya jalani di tanah tempat saya lahir. Sekarang saya kuliah di salah satu universitas swasta ternama di Bandung.\n\nCita-cita saya bisa membuat perusahaan penyedia jasa pengembangan aplikasi yang bersaing di lokal dan mancanegara. Selain itu juga, saya punya cita-cita besar lainnya yaitu membuat perusahaan kesenian asli Indonesia yang tujuannya dapat menjadi media penghubung para pengrajin di Indonesia dengan para penyuka art di lokal maupun mancanegara.\n\nMudahan jika cita-cita saya dapat tercapai salah satu atau keduanya, saya bisa menggunakan sebagian penghasilan untuk tolong-menolong. Amin.
     </string>
+    <string name="title_aktifitas_teman"><![CDATA[Aktifitas & Teman]]></string>
+    <string name="title_aktifitas">Aktifitas</string>
+    <string name="add_aktifitas">Tambah Aktifitas</string>
+    <string name="text_teman">Teman</string>
+    <string name="add_teman">Tambah Teman</string>
+    <string name="title_galeri">Galeri</string>
+    <string name="text_name">Satria Aji Putra</string>
+    <string name="text_nim">10118068</string>
+    <string name="title_home_hobby">Hobby</string>
+    <string name="value_hobby">Coding</string>
+    <string name="title_home_makes">Makes</string>
+    <string name="value_makes">Dodongkal</string>
+    <string name="title_home_mikes">Mikes</string>
+    <string name="value_mikes">Kopi</string>
+    <string name="title_home_interest">Interest</string>
+    <string name="value_interest">Diajar</string>
+    <string name="title_home_ambition">Cita-Cita</string>
+    <string name="value_ambition">Pengusaha</string>
+    <string name="no_data">Tidak ada data.</string>
+    <string name="title_music_video"><![CDATA[Musik & Video]]></string>
+    <string name="add_item">Tambah Item</string>
+    <string name="find_me">Find Me</string>
+    <string name="field_title_music">Judul Musik</string>
+    <string name="field_artist">Penyanyi/Artis</string>
+    <string name="cancel">Batal</string>
+    <string name="add">Tambahkan</string>
+    <string name="close">Tutup</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="view_gallery">Lihat Galeri</string>
+    <string name="dialog_gallery_example_author">Photo by Satia Aji Putra on Unsplash</string>
 </resources>

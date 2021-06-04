@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             style="@style/Theme.Kuring.TitleSm"
             android:layout_marginBottom="@dimen/base"
-            android:text="Tentang Aplikasi"/>
+            android:text="@string/about_app"/>
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -66,7 +66,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/xl3"
             android:minWidth="150dp"
-            android:text="Tutup"
+            android:text="@string/close"
             style="@style/Theme.Kuring.Button"/>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

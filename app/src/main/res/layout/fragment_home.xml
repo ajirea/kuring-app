@@ -65,7 +65,7 @@
                     android:id="@+id/userName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Satria Aji Putra"
+                    android:text="@string/text_name"
                     style="@style/Theme.Kuring.TitleSm"
                     android:layout_marginTop="12dp"
                     app:layout_constraintEnd_toEndOf="@+id/userAvatar"
@@ -77,7 +77,7 @@
                     style="@style/Theme.Kuring.TextGeneral"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="10118068"
+                    android:text="@string/text_nim"
                     android:textColor="@color/gray2"
                     android:layout_marginTop="8dp"
                     app:layout_constraintEnd_toEndOf="@+id/userName"
@@ -121,13 +121,13 @@
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardTitle"
                                     android:gravity="center"
-                                    android:text="Hobby"/>
+                                    android:text="@string/title_home_hobby"/>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardDesc"
                                     android:gravity="center"
-                                    android:text="Coding"/>
+                                    android:text="@string/value_hobby"/>
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
@@ -151,13 +151,13 @@
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardTitle"
                                     android:gravity="center"
-                                    android:text="Makes"/>
+                                    android:text="@string/title_home_makes"/>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardDesc"
                                     android:gravity="center"
-                                    android:text="Dodongkal"/>
+                                    android:text="@string/value_makes"/>
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
@@ -181,13 +181,13 @@
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardTitle"
                                     android:gravity="center"
-                                    android:text="Mikes"/>
+                                    android:text="@string/title_home_mikes"/>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardDesc"
                                     android:gravity="center"
-                                    android:text="Kopi"/>
+                                    android:text="@string/value_mikes"/>
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
@@ -211,13 +211,13 @@
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardTitle"
                                     android:gravity="center"
-                                    android:text="Interest"/>
+                                    android:text="@string/title_home_interest"/>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardDesc"
                                     android:gravity="center"
-                                    android:text="Diajar"/>
+                                    android:text="@string/value_interest"/>
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
@@ -240,13 +240,13 @@
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardTitle"
                                     android:gravity="center"
-                                    android:text="Cita-Cita"/>
+                                    android:text="@string/title_home_ambition"/>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     style="@style/Theme.Kuring.TextCardDesc"
                                     android:gravity="center"
-                                    android:text="Pengusaha"/>
+                                    android:text="@string/value_ambition"/>
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
@@ -283,7 +283,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     style="@style/Theme.Kuring.TextGeneral"
-                    android:text="@string/test_long"/>
+                    android:text="@string/about_me_desc"/>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </LinearLayout>

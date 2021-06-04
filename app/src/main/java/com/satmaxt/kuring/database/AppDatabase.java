@@ -16,7 +16,7 @@ import com.satmaxt.kuring.model.MusicModel;
  * Kelas: IF-2 / AKB-2
  */
 
-@Database(entities = {MusicModel.class}, version = 1)
+@Database(entities = {MusicModel.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase INSTANCE;
     public abstract MusicDao musicDao();
